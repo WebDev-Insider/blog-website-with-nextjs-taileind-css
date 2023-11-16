@@ -3,7 +3,7 @@ import Link from "next/link"
 import Author from "./_child/author"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { autoplay } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import fetcher from '../lib/fetcher'
@@ -18,7 +18,7 @@ export default function section1() {
     if(isLoading) return <Spinner></Spinner>;
     if(isError) return <Error></Error>
 
-    SwiperCore.use([Autoplay])
+    SwiperCore.use([autoplay])
 
     const bg = {
         background: "url('/images/banner.png') no-repeat",
