@@ -3,7 +3,7 @@ import Link from "next/link"
 import Author from "./_child/author"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper/core';
+import SwiperCore, { Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import fetcher from '../lib/fetcher'
