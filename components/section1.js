@@ -3,13 +3,13 @@ import Link from "next/link"
 import Author from "./_child/author"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { Autoplay } from 'swiper/less/autoplay';
 // Import Swiper styles
 import 'swiper/css';
 import fetcher from '../lib/fetcher'
 import Spinner from "./_child/spinner"
 import Error from "./_child/error"
-Swiper.use([ Autoplay]);
+
 
 
 export default function section1() {
