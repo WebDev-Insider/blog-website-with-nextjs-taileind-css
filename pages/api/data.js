@@ -24,7 +24,7 @@ export default {
             title: "Facebook pins future on Quest 3 and AI development",
             subtitle: "Parent company Meta has focused on establishing Twitter rival Threads and its new augmented reality headset Quest 3",
             category: "Web Dev",
-            img : "/images/img2.jpg",
+            img : "/images/articles/posts/img2.png",
             description: `
             Meta, the parent company of Facebook, WhatsApp and Instagram, has used its latest quartly earnings call to discuss how it is differentiating its Threads platform.
             `,
